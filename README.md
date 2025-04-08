@@ -48,7 +48,7 @@ To evaluate the degree of registration, this notebook uses metrics such as Mutua
 
 # Examples
 
-[Rigid Registration] 
+[Rigid Registration](https://github.com/Olamiknight/WSIFIR/blob/main/Rigid_Reg.ipynb)
 
 # References
 
