@@ -49,17 +49,23 @@ To evaluate the degree of registration, this notebook uses metrics such as Mutua
 
 [Rigid Registration](https://github.com/Olamiknight/WSIFIR/blob/main/Rigid_Reg.ipynb)
 
+# Useful Resources
+
+[ANTsPy API](https://github.com/ANTsX/ANTsPy) Optimized Medical Imaging Library that is based on Simple ITK. It allows for registration, segementation and statisical learning.
+
+[AstroPathDB API](https://laughing-adventure-mzoz3p7.pages.github.io/) Package that allows for access of multispectral images in Python that are located on Microsoft SQL databases.
+
+[Sidus API](https://github.com/pages/auth?nonce=ca5bb124-9131-4f6f-8803-b19e1385532a&page_id=53985155&path=L3BrZ19leGFtcGxlc190dXRvcmlhbHMvY29yZS9sb2FkaW5nX2RhdGEuaHRtbA) Package that allows for access and of spatial omics data for analysis based on AstroPathDB
+
+[Simple ITK API](https://github.com/SimpleITK/SimpleITKPythonPackage) Multidimensional image analysis sofware that also has several useful similariy metrics. 
+
 # References
-
-[ANTsPy documentation](https://antspy.readthedocs.io/en/latest/index.html)
-
-[AstroPathDB API](https://laughing-adventure-mzoz3p7.pages.github.io/)
 
 Doyle, J., Green, B. F., Eminizer, M., Jimenez-Sanchez, D., Lu, S., Engle, E. L., Xu, H., Ogurtsova, A., Lai, J., Soto-Diaz, S., Roskes, J. S., Deutsch, J. S., Taube, J. M., Sunshine, J. C., & Szalay, A. S. (2023). Whole-Slide Imaging, Mutual Information Registration for Multiplex Immunohistochemistry and Immunofluorescence. Laboratory investigation; a journal of technical methods and pathology, 103(8), 100175. https://doi.org/10.1016/j.labinv.2023.100175
 
-[Sidus API](https://github.com/pages/auth?nonce=ca5bb124-9131-4f6f-8803-b19e1385532a&page_id=53985155&path=L3BrZ19leGFtcGxlc190dXRvcmlhbHMvY29yZS9sb2FkaW5nX2RhdGEuaHRtbA)
-
 Tustison, N. J., Cook, P. A., Holbrook, A. J., Johnson, H. J., Muschelli, J., Devenyi, G. A., Duda, J. T., Das, S. R., Cullen, N. C., Gillen, D. L., Yassa, M. A., Stone, J. R., Gee, J. C., & Avants, B. B. (2021). The ANTsX ecosystem for quantitative biological and medical imaging. Scientific reports, 11(1), 9068. https://doi.org/10.1038/s41598-021-87564-6
+
+Yaniv, Z., Lowekamp, B. C., Johnson, H. J., & Beare, R. (2018). SimpleITK Image-Analysis Notebooks: a Collaborative Environment for Education and Reproducible Research. Journal of digital imaging, 31(3), 290–303. https://doi.org/10.1007/s10278-017-0037-8
 
 
 # Contact
