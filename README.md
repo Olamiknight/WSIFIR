@@ -21,7 +21,7 @@ To evaluate the degree of registration, this notebook uses metrics such as Mutua
 
 # Prerequisties 
 - Python 3.10
-Packages:
+- Packages:
   - ants
   - dask
   - numpy
