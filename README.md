@@ -4,6 +4,7 @@ Whole Slide Immunofluorescence Image Registration of Mono-Modal Histopathologica
 # 1. Description
 
 This script reads in histological images located on 3 separate biomarker panels located on the AstroPath SQL database. The first panel is focused on the PD-L1/PD-1 axis (WSI02/Axis), The second is focused on tumour regression (WSI06/Regression), and the third one is focused on T-cell activation (WSI14/Tbet).
+![Slide3](https://github.com/user-attachments/assets/a470281c-c6e6-41af-a3d7-d9c0bc2db7a9)
 
 Each panel has a corresponding image slice for the same patient as their tissue blocks were sliced into three slices and stained with fluorescent chemicals for digital visualization. Ideally, these sets of images should be mapped unto the same plane however during the tissue sectioning process tissue deformation can occur causing the images to be unaligned.
 
