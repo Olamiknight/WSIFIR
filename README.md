@@ -15,7 +15,6 @@ To evaluate the degree of registration, this notebook uses metrics such as Mutua
 
 # 2. Prerequisties 
 
-- astropathdb
 - ants
 - dask
 - numpy
@@ -32,9 +31,11 @@ To evaluate the degree of registration, this notebook uses metrics such as Mutua
 
 # 3. Workflow
 
-- First, load an samples table with the slide and sampleids of the images you want to access
-- Using the AstroPath[]([(https://laughing-adventure-mzoz3p7.pages.github.io/index.html)])
-- Run the Rigid Registration code on the images at a low resolution (7-9) and save the transformation paramaters as an excel file
-- Repeat the process at
+- First, load an samples table with the slide and sampleids of the sets (rows) images you want to access
+- Using the [Sidus](https://laughing-adventure-mzoz3p7.pages.github.io/index.html](https://redesigned-waddle-y65p2r9.pages.github.io/ ) package load in the images and crop them to low resolution.
+- Using [ANTsPy](https://github.com/ANTsX/ANTsPy) package run the Rigid Registration code on the images at a low resolution (7-9) and save the transformation paramaters and metrics as an excel file.
+- Repeat the process at a higher resolution using the Affine Registration code on the images at a medium resolution (3-5) and save the transformation paramaters and metrics as an excel file.
+- Conduct a final registration using the Deformable Registration code on the images at a higher resolution (1-2) and save the transformation parameters and metrics as an excel file.
+  
 
  
