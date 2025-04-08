@@ -22,19 +22,21 @@ To evaluate the degree of registration, this notebook uses metrics such as Mutua
 # Prerequisties 
 - Python 3.10
 - Packages:
-  - ants
-  - dask
-  - numpy
-  - matplotlib.pyplot
-  - pandas
-  - itertools
-  - scipy
-  - sidus
-  - sitk
-  - skimage
-  - sklearn.metrics
-  - spatialdata
-  - xarray
+  - Using pip install the following packages
+    - ants
+    - astropathdb
+    - dask
+    - numpy
+    - matplotlib.pyplot
+    - pandas
+    - itertools
+    - scipy
+    - sidus
+    - sitk
+    - skimage
+    - sklearn.metrics
+    - spatialdata
+    - xarray
 
 # Workflow
 
