@@ -14,10 +14,11 @@ For each image, there are a total of 9 resolutions therefore registration will b
 
 To evaluate the degree of registration, this notebook uses metrics such as Mutual Information, Cross Correlation, Mean Squared Error, Jaccard Index, Dice Similarity Score, and Hausdorff Distance. The notebook is designed to evaluate the alignment of WSI images before and after transformations performed at each image resolution.
 
-# Prerequisties 
-- Python 3.10
+# User installation
+- Python Version:
+    - Python 3.10    
 - Packages:
-  - Using pip install the following packages
+  - Using pip install the following packages and save them to a conda environment
     - ants
     - astropathdb
     - dask
