@@ -37,6 +37,9 @@ To evaluate the degree of registration, this notebook uses metrics such as Mutua
 # Workflow
 
 - First, load an samples table with the slide and sampleids of the sets (rows) images you want to access
+    - Example Table:
+      <img width="499" alt="image" src="https://github.com/user-attachments/assets/78ea259d-b0a6-4930-a686-e01f2cef30f1" />
+
 - Using the [Sidus](https://laughing-adventure-mzoz3p7.pages.github.io/index.html](https://redesigned-waddle-y65p2r9.pages.github.io/ ) package load in the images and crop them to low resolution.
 - Using [ANTsPy](https://github.com/ANTsX/ANTsPy) package run the Rigid Registration code on the images at a low resolution (7-9) and save the transformation paramaters and metrics as an excel file.
 - Repeat the process at a higher resolution using the Affine Registration code on the images at a medium resolution (3-5) and save the transformation paramaters and metrics as an excel file.
