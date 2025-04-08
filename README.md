@@ -46,7 +46,8 @@ To evaluate the degree of registration, this notebook uses metrics such as Mutua
 - Repeat the process at a higher resolution using the Affine Registration code on the images at a medium resolution (3-5) and save the transformation paramaters and metrics as an excel file.
 - Conduct a final registration using the Deformable Registration code on the images at a higher resolution (1-2) and save the transformation parameters and metrics as an excel file.
 
-![multi_slide_registration](https://github.com/user-attachments/assets/17cc41e4-66cd-4019-bb0c-d31c656fc71f)
+![multi_slide_registration](https://github.com/user-attachments/assets/32f13b0c-e26c-4e87-a71c-b2e2e4ba55f2)
+
 
 
 # Examples
