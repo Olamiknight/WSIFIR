@@ -33,7 +33,7 @@ To evaluate the degree of registration, this notebook uses metrics such as Mutua
 # 3. Workflow
 
 - First, load an samples table with the slide and sampleids of the images you want to access
-- Using the AstroPath[]([url](https://laughing-adventure-mzoz3p7.pages.github.io/index.html))
+- Using the AstroPath[]([(https://laughing-adventure-mzoz3p7.pages.github.io/index.html)])
 - Run the Rigid Registration code on the images at a low resolution (7-9) and save the transformation paramaters as an excel file
 - Repeat the process at
 
