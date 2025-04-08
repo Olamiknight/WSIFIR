@@ -38,6 +38,7 @@ To evaluate the degree of registration, this notebook uses metrics such as Mutua
 
 - First, load an samples table with the slide and sampleids of the sets (rows) images you want to access
     - Example Table:
+
       <img width="499" alt="image" src="https://github.com/user-attachments/assets/78ea259d-b0a6-4930-a686-e01f2cef30f1" />
 
 - Using the [Sidus](https://laughing-adventure-mzoz3p7.pages.github.io/index.html](https://redesigned-waddle-y65p2r9.pages.github.io/ ) package load in the images and crop them to low resolution.
