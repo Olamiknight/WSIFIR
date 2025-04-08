@@ -13,7 +13,7 @@ For each image, there are a total of 9 resolutions therefore registration will b
 
 To evaluate the degree of registration, this notebook uses metrics such as Mutual Information, Cross Correlation, Mean Squared Error, Jaccard Index, Dice Similarity Score, and Hausdorff Distance. The notebook is designed to evaluate the alignment of WSI images before and after transformations performed at each image resolution.
 
-# Prerequisties 
+# 2. Prerequisties 
 
 - astropathdb
 - ants
@@ -29,3 +29,12 @@ To evaluate the degree of registration, this notebook uses metrics such as Mutua
 - sklearn
 - spatialdata
 - xarray
+
+# 3. Workflow
+
+- First, load an samples table with the slide and sampleids of the images you want to access
+- Using the AstroPath[]([url](https://laughing-adventure-mzoz3p7.pages.github.io/index.html))
+- Run the Rigid Registration code on the images at a low resolution (7-9) and save the transformation paramaters as an excel file
+- Repeat the process at
+
+ 
