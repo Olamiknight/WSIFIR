@@ -12,8 +12,6 @@ So, this code was designed to streamline the registration process of these adjac
 
 For each image, there are a total of 9 resolutions therefore registration will be conducted at each resolution with less complex rigid registrations occuring at lower resolutions, moderately complex affine resolutions happenning at medium resolutions and deformable registrations happening at the higher resolutions. 
 
-![Slide5](https://github.com/user-attachments/assets/014bc73a-6f0f-4c65-ba3b-5141b9e85b0f)
-
 
 To evaluate the degree of registration, this notebook uses metrics such as Mutual Information, Cross Correlation, Mean Squared Error, Jaccard Index, Dice Similarity Score, and Hausdorff Distance. The notebook is designed to evaluate the alignment of WSI images before and after transformations performed at each image resolution.
 
@@ -40,6 +38,7 @@ To evaluate the degree of registration, this notebook uses metrics such as Mutua
 - Using [ANTsPy](https://github.com/ANTsX/ANTsPy) package run the Rigid Registration code on the images at a low resolution (7-9) and save the transformation paramaters and metrics as an excel file.
 - Repeat the process at a higher resolution using the Affine Registration code on the images at a medium resolution (3-5) and save the transformation paramaters and metrics as an excel file.
 - Conduct a final registration using the Deformable Registration code on the images at a higher resolution (1-2) and save the transformation parameters and metrics as an excel file.
-  
+
+  ![Slide5](https://github.com/user-attachments/assets/014bc73a-6f0f-4c65-ba3b-5141b9e85b0f)
 
  
