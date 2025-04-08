@@ -46,6 +46,10 @@ To evaluate the degree of registration, this notebook uses metrics such as Mutua
 
 ![Slide5](https://github.com/user-attachments/assets/014bc73a-6f0f-4c65-ba3b-5141b9e85b0f)
 
+# Examples
+
+[Rigid Registration] 
+
 # References
 
 Doyle, J., Green, B. F., Eminizer, M., Jimenez-Sanchez, D., Lu, S., Engle, E. L., Xu, H., Ogurtsova, A., Lai, J., Soto-Diaz, S., Roskes, J. S., Deutsch, J. S., Taube, J. M., Sunshine, J. C., & Szalay, A. S. (2023). Whole-Slide Imaging, Mutual Information Registration for Multiplex Immunohistochemistry and Immunofluorescence. Laboratory investigation; a journal of technical methods and pathology, 103(8), 100175. https://doi.org/10.1016/j.labinv.2023.100175
