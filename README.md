@@ -13,6 +13,7 @@ So, this code was designed to streamline the registration process of these adjac
 For each image, there are a total of 9 resolutions therefore registration will be conducted at each resolution with less complex rigid registrations occuring at lower resolutions, moderately complex affine resolutions happenning at medium resolutions and deformable registrations happening at the higher resolutions. 
 
 ![image](https://github.com/user-attachments/assets/40bffd29-9a36-4177-a5cf-228ba7dcb4b1)
+Image Source: [Doyle et al., 2020](https://doi.org/10.1016/j.labinv.2023.100175) 
 
 
 To evaluate the degree of registration, this notebook uses metrics such as Mutual Information, Cross Correlation, Mean Squared Error, Jaccard Index, Dice Similarity Score, and Hausdorff Distance. The notebook is designed to evaluate the alignment of WSI images before and after transformations performed at each image resolution.
