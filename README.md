@@ -20,20 +20,21 @@ Image Source: [Doyle et al., 2020](https://doi.org/10.1016/j.labinv.2023.100175)
 To evaluate the degree of registration, this notebook uses metrics such as Mutual Information, Cross Correlation, Mean Squared Error, Jaccard Index, Dice Similarity Score, and Hausdorff Distance. The notebook is designed to evaluate the alignment of WSI images before and after transformations performed at each image resolution.
 
 # Prerequisties 
-
-- ants
-- dask
-- numpy
-- matplotlib.pyplot
-- pandas
-- itertools
-- scipy
-- sidus
-- sitk
-- skimage
-- sklearn
-- spatialdata
-- xarray
+- Python 3.10
+Packages:
+  - ants
+  - dask
+  - numpy
+  - matplotlib.pyplot
+  - pandas
+  - itertools
+  - scipy
+  - sidus
+  - sitk
+  - skimage
+  - sklearn.metrics
+  - spatialdata
+  - xarray
 
 # Workflow
 
