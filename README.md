@@ -1,5 +1,5 @@
 # WSIFIR
-Whole Slide Immunofluorescence Image Registration of Mono-Modal Histopathological Images located on the AstroPath database using ANTsPy.
+Whole Slide Immunofluorescence Image Registration (WSIFIR) of Mono-Modal Histopathological Images located on the AstroPath database using ANTsPy.
 
 # Description
 
