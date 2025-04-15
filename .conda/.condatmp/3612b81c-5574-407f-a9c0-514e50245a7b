@@ -1,0 +1,13 @@
+prefix=c:/Users/molanre1/Documents/GitHub/WSIFIR/.conda/Library
+exec_prefix=c:/Users/molanre1/Documents/GitHub/WSIFIR/.conda/Library
+libdir=c:/Users/molanre1/Documents/GitHub/WSIFIR/.conda/Library/lib
+sharedlibdir=c:/Users/molanre1/Documents/GitHub/WSIFIR/.conda/Library/lib
+includedir=c:/Users/molanre1/Documents/GitHub/WSIFIR/.conda/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
