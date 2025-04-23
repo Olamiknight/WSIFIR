@@ -20,19 +20,14 @@ To evaluate the degree of registration, this notebook uses metrics such as Mutua
 - Packages:
   - Using pip install the following packages and save them to a conda environment
     - ants
-    - astropathdb
     - dask
     - numpy
     - matplotlib.pyplot
     - pandas
-    - itertools
-    - scipy
     - sidus
-    - sitk
     - skimage
     - sklearn.metrics
-    - spatialdata
-    - xarray
+    
 
 # Workflow
 
