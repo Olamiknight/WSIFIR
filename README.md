@@ -27,7 +27,8 @@ To evaluate the degree of registration, this notebook uses metrics such as Mutua
     - sidus
     - skimage
     - sklearn.metrics
-    
+    - scipy.stats
+    - seaborn
 
 # Workflow
 
