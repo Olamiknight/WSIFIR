@@ -59,3 +59,4 @@ def scale_transform(transform_path, scaling_factors):
     
     except Exception as e:
         raise RuntimeError(f"Error scaling transform: {e}")
+
