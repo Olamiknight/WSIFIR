@@ -1,0 +1,19 @@
+name: environment.yml  
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - matplotlib
+  - pandas
+  - ants
+  - scikit-learn
+  - simpleitk
+  - scikit-image
+  - seaborn
+  - scipy
+  - dask
+  - pip
+  - pip:
+      - sidus
