@@ -1,4 +1,4 @@
-name: image_registration_environment
+name:  wsifir-env
 channels:
   - conda-forge
   - defaults
