@@ -13,6 +13,7 @@ dependencies:
   - seaborn
   - scipy
   - dask
+  - ipykernel
   - pip
   - pip:
       - git+https://github.com/AstroPathJHU/sidus.git
