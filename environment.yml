@@ -16,4 +16,4 @@ dependencies:
   - dask
   - pip
   - pip:
-      - sidus
+      - git+https://github.com/AstroPathJHU/sidus.git
