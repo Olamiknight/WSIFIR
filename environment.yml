@@ -16,4 +16,4 @@ dependencies:
   - pip
   - pip:
       - git+https://github.com/AstroPathJHU/sidus.git
-      - git+https://github.com/antsx/antspy
+      - antspyx
