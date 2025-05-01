@@ -15,6 +15,7 @@ dependencies:
   - dask
   - ipykernel
   - pip
+  - skimage
   - pip:
       - git+https://github.com/AstroPathJHU/sidus.git
       - antspyx
