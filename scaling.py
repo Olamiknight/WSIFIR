@@ -1,4 +1,6 @@
 
+import ants
+
 def compute_scaling_factor(higher_res_scale, lower_res_scale):
     """
     Compute the scaling factor based on the image transformations.
