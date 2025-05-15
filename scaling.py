@@ -1,5 +1,6 @@
 
 import ants
+import numpy as np
 
 def compute_scaling_factor(higher_res_scale, lower_res_scale):
     """
