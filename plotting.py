@@ -1,6 +1,7 @@
 
 
 from matplotlib import pyplot as plt
+import numpy as np
 
 def plot_grouped_bar_chart(df1, df2, title):
     # Set the figure size

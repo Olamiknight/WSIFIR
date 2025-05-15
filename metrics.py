@@ -1,6 +1,5 @@
 
 import ants
-import numpy as np
 import SimpleITK as sitk
 from sklearn.metrics import jaccard_score, f1_score
 
