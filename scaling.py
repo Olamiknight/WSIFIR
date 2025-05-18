@@ -1,4 +1,3 @@
-
 import ants
 import numpy as np
 
@@ -9,9 +8,10 @@ def compute_scaling_factor(higher_res_scale, lower_res_scale):
     # Directly compute the scaling factor as a scalar
     return lower_res_scale / higher_res_scale
 
+
 def scale_transform(transform_path, scaling_factors):
     """
-    Scale a 2D affine transformation matrix while preserving rotation components.
+    Scale a 2D rigid transformation matrix while preserving rotation components.
     
     Parameters:
         transform_path (str): Path to the original transformation matrix (.mat file).
@@ -22,6 +22,10 @@ def scale_transform(transform_path, scaling_factors):
         str: Path to the scaled transformation matrix.
     """
     try:
+        # Ensure the file path ends with .mat
+        if not transform_path.endswith('.mat'):
+            raise ValueError("The transform file must have a .mat extension.")
+        
         # Read the transformation matrix
         transform = ants.read_transform(transform_path)
         
@@ -38,10 +42,12 @@ def scale_transform(transform_path, scaling_factors):
         elif len(scaling_factors) != 2:
             raise ValueError("Scaling factors must be a scalar or a list of 2 values for 2D transformations.")
         
-        # Scale only the translation components (last two parameters for tx, ty in 2D affine)
+        # Scale only the translation components (last two parameters for tx, ty in 2D rigid)
         scaled_parameters = parameters.copy()
         if len(parameters) >= 6:  # Ensure there are enough parameters for a 2D affine transform
-            scaled_parameters[4:6] *= scaling_factors  # Scale translation components (tx, ty)
+            # Scale translation components (tx, ty) while keeping rotation unchanged
+            scaled_parameters[4] *= scaling_factors[0]  # Scale tx
+            scaled_parameters[5] *= scaling_factors[1]  # Scale ty
         else:
             raise ValueError("Transformation parameters do not have enough components to scale translation.")
         
@@ -59,5 +65,7 @@ def scale_transform(transform_path, scaling_factors):
         
         return scaled_transform_path
     
+    except ValueError as ve:
+        raise ValueError(f"ValueError: {ve}")
     except Exception as e:
-        raise RuntimeError(f"Error scaling transform: {e}")
+        raise RuntimeError(f"Unexpected error while scaling transform: {type(e).__name__}: {e}")
