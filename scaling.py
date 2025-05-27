@@ -6,6 +6,7 @@ def compute_scaling_factor(higher_res_scale, lower_res_scale):
     """
     Compute the scaling factor based on the image transformations.
     """
+    # Directly compute the scaling factor as a scalar
     return lower_res_scale / higher_res_scale
 
 
@@ -69,12 +70,6 @@ def scale_transform(transform_path, scaling_factors, fixed_image, moving_image):
             parameters=scaled_parameters.tolist(),
             fixed_parameters=transform.fixed_parameters,
         )
-
-        # Verify that fixed parameters are preserved
-        if not np.allclose(scaled_transform.fixed_parameters, transform.fixed_parameters):
-            raise RuntimeError(
-                "Fixed parameters of the scaled transform do not match the original transform."
-            )
 
         # Save the scaled transformation matrix
         scaled_transform_path = transform_path.replace(".mat", "_scaled.mat")
