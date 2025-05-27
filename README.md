@@ -49,6 +49,7 @@ To evaluate the degree of registration, this notebook uses metrics such as Mutua
 # Examples
 
 [Axis to Regression Panel Registration](Axis_Reg_Registration.ipynb)
+
 [Axis to Tbet Panel Registration](Regression_Tbet_Registration.ipynb) 
 
 
