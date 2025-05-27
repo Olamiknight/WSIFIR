@@ -48,7 +48,9 @@ To evaluate the degree of registration, this notebook uses metrics such as Mutua
 
 # Examples
 
-[Rigid Registration](https://github.com/Olamiknight/WSIFIR/blob/main/Rigid_Reg.ipynb)
+[Axis to Regression Panel Registration](Axis_Reg_Registration.ipynb)
+[Axis to Tbet Panel Registration](Regression_Tbet_Registration.ipynb) 
+
 
 # Useful Resources
 
