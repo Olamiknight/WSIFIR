@@ -1,8 +1,5 @@
 
 import numpy as np
-import SimpleITK as sitk
-import ants
-from sklearn.metrics import jaccard_score, f1_score
 
 def pad_images_to_same_size(images):
     # Get the maximum dimensions
