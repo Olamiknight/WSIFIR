@@ -1,0 +1,70 @@
+[build-system]
+build-backend = "hatchling.build"
+requires = ["hatchling", "hatch-vcs"]
+
+[project]
+name = "wsifir"
+description = "things"
+authors = [
+    {name = "Olamide Olanrewaju"},
+]
+maintainers = [
+    {name = "Olamide Olanrewaju", email = "mide.olanrewaju@queensu.ca"},
+    {name = "Benjamin Green", email = "bgreen42@jh.edu"},
+]
+dynamic = ["version"]
+requires-python = ">=3.10"
+
+license = {file = "LICENSE"}
+readme = "README.md"
+dependencies = [
+    "numpy", 
+    "matplotlib",
+    "pandas",
+    "sckit-learn",
+    "simpleitk",
+    "scikit-image",
+    "seaborn",
+    "scipy",
+    "dask",
+    "skimage",
+    "antspyx",
+    "sidus @ git+https://github.com/AstroPathJHU/sidus.git@main",
+]
+
+[project.optional-dependencies]
+
+test = [
+    "black",
+    "flake8",
+    "pylint",
+    "pytest",
+    "pylint-pytest",
+    "pytest-datafiles",
+    "pre-commit",
+]
+
+jupyter = [
+    "ipykernel",
+    "ipython>=8.6.0",
+    "jupyter",
+]
+
+dev = [
+    "wsifir[test,jupyter]",
+]
+
+[tool.black]
+line-length = 80
+
+[tool.hatch.build.targets.wheel]
+packages = ['src/wsifir']
+
+[tool.hatch.version]
+source = "vcs"
+
+[tool.hatch.build.hooks.vcs]
+version-file = "_version.py"
+
+[tool.hatch.metadata]
+allow-direct-references = true
