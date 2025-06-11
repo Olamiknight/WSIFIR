@@ -1,3 +1,7 @@
+# probably don't just want one function in the module
+# we could have a metrics module with commands for computing
+# each metric separaely with a common interface and wrapper at the end for all
+
 import ants
 import pandas as pd
 import SimpleITK as sitk

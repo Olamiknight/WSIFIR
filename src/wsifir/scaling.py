@@ -1,3 +1,5 @@
+# most of this was rewritten into utils and this could probably be removed
+
 import ants
 import numpy as np
 

@@ -9,6 +9,8 @@ import numpy as np
 from sidus.tools._math import get_transformed_aabb
 
 
+# try not to hard code the matplotlib style stuff
+# use arguments instead and pass them to the plotting functions
 def plot_grouped_bar_chart(df1, df2, title):
     # Set the figure size
     plt.figure(figsize=(10, 6))

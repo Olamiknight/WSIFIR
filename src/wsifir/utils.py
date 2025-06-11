@@ -10,6 +10,11 @@ import pandas as pd
 from spatialdata.models import Image2DModel
 
 
+# i don't know if we need this function anymore
+# ants doesn't need them to be in the same size
+# also does this always pad to the right and bottom?
+# if not it will cause issues with the registration
+# between scales
 def pad_images_to_same_size(*images) -> list[np.ndarray]:
     """
     Pad a list of images to be the same size.
