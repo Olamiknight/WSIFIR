@@ -1,4 +1,5 @@
 # most of this was rewritten into utils and this could probably be removed
+from typing import Union
 
 import ants
 import numpy as np
@@ -12,7 +13,12 @@ def compute_scaling_factor(higher_res_scale, lower_res_scale):
     return lower_res_scale / higher_res_scale
 
 
-def scale_transform(transform_path, scaling_factors, fixed_image, moving_image):
+def scale_transform(
+    transform_path: str,
+    scaling_factors: Union[list, float],
+    fixed_image: ants.ANTsImage,
+    moving_image,
+):
     """
     Scale a 2D rigid transformation matrix while preserving rotation components
     and adjusting translation.
