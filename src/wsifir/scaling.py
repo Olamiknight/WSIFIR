@@ -14,7 +14,8 @@ def compute_scaling_factor(higher_res_scale, lower_res_scale):
 
 def scale_transform(transform_path, scaling_factors, fixed_image, moving_image):
     """
-    Scale a 2D rigid transformation matrix while preserving rotation components and adjusting translation.
+    Scale a 2D rigid transformation matrix while preserving rotation components
+    and adjusting translation.
 
     Parameters:
         transform_path (str): Path to the original transformation matrix (.mat file).
