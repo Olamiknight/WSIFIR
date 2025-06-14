@@ -1,5 +1,5 @@
-# WSIFIR
-Whole Slide Immunofluorescence Image Registration (WSIFIR) of Mono-Modal Histopathological Images located on the AstroPath database using ANTsPy.
+# wsimir
+Whole Slide Multi-Scale Image Registration of Biomedical Images using ANTsPy.
 
 # Description
 
@@ -55,7 +55,7 @@ To evaluate the degree of registration, this notebook uses metrics such as Mutua
 
 [AstroPathDB API](https://laughing-adventure-mzoz3p7.pages.github.io/) Package that allows for access of multispectral images in Python that are located on Microsoft SQL databases.
 
-[Sidus API](https://github.com/pages/auth?nonce=ca5bb124-9131-4f6f-8803-b19e1385532a&page_id=53985155&path=L3BrZ19leGFtcGxlc190dXRvcmlhbHMvY29yZS9sb2FkaW5nX2RhdGEuaHRtbA) Package that allows for access and of spatial omics data for analysis based on AstroPathDB
+[Sidus API](https://redesigned-waddle-y65p2r9.pages.github.io/index.html#) Package that allows for access and of spatial omics data for analysis based on AstroPathDB
 
 [Simple ITK API](https://github.com/SimpleITK/SimpleITKPythonPackage) Multidimensional image analysis sofware that also has several useful similariy metrics. 
 
@@ -68,7 +68,7 @@ Tustison, N. J., Cook, P. A., Holbrook, A. J., Johnson, H. J., Muschelli, J., De
 Yaniv, Z., Lowekamp, B. C., Johnson, H. J., & Beare, R. (2018). SimpleITK Image-Analysis Notebooks: a Collaborative Environment for Education and Reproducible Research. Journal of digital imaging, 31(3), 290–303. https://doi.org/10.1007/s10278-017-0037-8
 
 
-# Contact
-
-Mide Olanrewaju (19oo7@queensu.ca)
+# Contacts
+Olamide Olanrewaju (mide.olanrewaju@queensu.ca)
+Benjamin Green (bgreen42@jhmi.edu)
  
