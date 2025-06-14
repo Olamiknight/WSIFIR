@@ -3,16 +3,11 @@ Whole Slide Multi-Scale Image Registration of Biomedical Images using ANTsPy.
 
 # Description
 
-This script reads in histological images located on 3 separate biomarker panels located on the AstroPath SQL database. The first panel is focused on the PD-L1/PD-1 axis (WSI02/Axis), The second is focused on tumour regression (WSI06/Regression), and the third one is focused on T-cell activation (WSI14/Tbet).
-![Slide3](https://github.com/user-attachments/assets/a470281c-c6e6-41af-a3d7-d9c0bc2db7a9)
+This code was designed to streamline the registration process of these adjacent sections so that they are mapped to the same coordinate space. Thus, it allows pathologists to simultaneously assess various aspects of biological response to immunotherapeutic treatment. 
 
-Each panel has a corresponding image slice for the same patient as their tissue blocks were sliced into three slices and stained with fluorescent chemicals for digital visualization. Ideally, these sets of images should be mapped unto the same plane however during the tissue sectioning process tissue deformation can occur causing the images to be unaligned.
+Less complex rigid registrations occur at lower resolutions, moderately complex affine registrations at medium resolutions, and deformable registrations at higher resolutions. 
 
-So, this code was designed to streamline the registration process of these adjacent sections so that they are mapped unto the same coordinate space. Thus, allowing for simulatenous assessment of various aspects of biological response to immmunotheraepeutic treatment for pathologists. 
-
-For each image, there are a total of 9 resolutions therefore registration will be conducted at each resolution with less complex rigid registrations occuring at lower resolutions, moderately complex affine resolutions happenning at medium resolutions and deformable registrations happening at the higher resolutions. 
-
-To evaluate the degree of registration, this notebook uses metrics such as Mutual Information, Cross Correlation, Mean Squared Error, Jaccard Index, Dice Similarity Score, and Hausdorff Distance. The notebook is designed to evaluate the alignment of WSI images before and after transformations performed at each image resolution.
+This pipeline uses metrics such as mutual information, cross correlation, mean squared error, Jaccard Index, dice similarity score, and Hausdorff distance to evaluate the degree of registration. It is designed to assess the alignment of WSI images before and after transformations performed at each image resolution.
 
 # User installation
 - Python Version:
