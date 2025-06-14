@@ -24,9 +24,10 @@ def scale_transform(
     and adjusting translation.
 
     Parameters:
-        transform_path (str): Path to the original transformation matrix (.mat file).
-        scaling_factors (list or float): Scaling factors for translation components.
-                                         Can be a scalar or a list of 2 values for 2D transformations.
+        transform_path (str): Path to the original transformation
+            matrix (.mat file).
+        scaling_factors (list or float): Scaling factors for translation.
+            Can be a scalar or a list of 2 values for 2D transformations.
         fixed_image (ants.ANTsImage): The fixed image (reference image).
         moving_image (ants.ANTsImage): The moving image to be transformed.
 
@@ -49,10 +50,14 @@ def scale_transform(
             scaling_factors = [scaling_factors] * 2
         elif len(scaling_factors) != 2:
             raise ValueError(
-                "Scaling factors must be a scalar or a list of 2 values for 2D transformations."
+                (
+                    "Scaling factors must be a scalar or list of 2 values "
+                    "for 2D transformations."
+                )
             )
 
-        # Scale only the translation components (last two parameters for tx, ty in 2D rigid)
+        # Scale only the translation components:
+        # last two parameters for tx, ty in 2D rigid
         scaled_parameters = parameters.copy()
         if len(parameters) >= 6:
             scaled_parameters[4] *= scaling_factors[0]
@@ -69,7 +74,8 @@ def scale_transform(
             scaled_parameters[5] += y_shift
         else:
             raise ValueError(
-                "Transformation parameters do not have enough components to scale translation."
+                "Transformation parameters do not have "
+                "enough components to scale translation."
             )
 
         # Create a new transform with the scaled parameters
