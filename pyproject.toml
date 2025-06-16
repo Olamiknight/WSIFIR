@@ -24,10 +24,10 @@ dependencies = [
     "matplotlib",
     "numpy",
     "pandas",
+    "pyimagej",
     "scikit-learn",
     "scikit-image",
     "scipy",
-    "seaborn",
     "sidus @ git+https://github.com/AstroPathJHU/sidus.git@main",
     "simpleitk",
 ]
