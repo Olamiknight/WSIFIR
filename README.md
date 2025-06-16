@@ -22,6 +22,7 @@ This pipeline uses metrics such as mutual information, cross correlation, mean s
     - sidus
     - skimage.exposure
     - ipywidgets
+    - pyimagej
 
 # Workflow
 
@@ -41,15 +42,20 @@ This pipeline uses metrics such as mutual information, cross correlation, mean s
 
 # Examples
 
-[Axis to Regression Panel Registration](Axis_Reg_Registration.ipynb)
+[Mono-Modal IF Axis to Regression Panel Registration](Axis_Reg_Registration.ipynb)
 
-[Axis to Tbet Panel Registration](Regression_Tbet_Registration.ipynb) 
+[Mono-Modal IF Axis to Tbet Panel Registration](Regression_Tbet_Registration.ipynb) 
+
+[Multi-Modal IF to IHC Image Registration](IF_IHC_Registration.ipynb)
 
 # Useful Resources
 
 [ANTsPy API](https://github.com/ANTsX/ANTsPy) Optimized Medical Imaging Library that is based on Simple ITK. It allows for registration, segementation and statisical learning.
 
 [AstroPathDB API](https://laughing-adventure-mzoz3p7.pages.github.io/) Package that allows for access of multispectral images in Python that are located on Microsoft SQL databases.
+
+[PyImageJ API](https://github.com/imagej/pyimagej)
+Python wrapper for ImageJ2 used for multidimensional image data
 
 [Sidus API](https://redesigned-waddle-y65p2r9.pages.github.io/index.html#) Package that allows for access and of spatial omics data for analysis based on AstroPathDB
 
