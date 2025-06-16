@@ -24,22 +24,6 @@ This pipeline uses metrics such as mutual information, cross correlation, mean s
     - ipywidgets
     - pyimagej
 
-# Workflow
-
-- First, load an samples table with the slide and sampleids of the sets (rows) images you want to access
-    - Example Table:
-
-      <img width="499" alt="image" src="https://github.com/user-attachments/assets/78ea259d-b0a6-4930-a686-e01f2cef30f1" />
-
-- Using the [Sidus](https://laughing-adventure-mzoz3p7.pages.github.io/index.html](https://redesigned-waddle-y65p2r9.pages.github.io/ ) package load in the images and crop them to low resolution.
-- Using [ANTsPy](https://github.com/ANTsX/ANTsPy) package run the Rigid Registration code on the images at a low resolution (7-9) and save the transformation paramaters and metrics as an excel file.
-- Repeat the process at a higher resolution using the Affine Registration code on the images at a medium resolution (3-5) and save the transformation paramaters and metrics as an excel file.
-- Conduct another registration using the Deformable Registration code on the images at a higher resolution (1-2) and save the transformation parameters and metrics as an excel file.
-  
-![multi_slide_registration](https://github.com/user-attachments/assets/32f13b0c-e26c-4e87-a71c-b2e2e4ba55f2)
-
-
-
 # Examples
 
 [Mono-Modal IF Axis to Regression Panel Registration](notebooks/Axis_Reg_Registration.ipynb)
@@ -55,9 +39,9 @@ This pipeline uses metrics such as mutual information, cross correlation, mean s
 [AstroPathDB API](https://laughing-adventure-mzoz3p7.pages.github.io/) Package that allows for access of multispectral images in Python that are located on Microsoft SQL databases.
 
 [PyImageJ API](https://github.com/imagej/pyimagej)
-Python wrapper for ImageJ2 used for multidimensional image data
+Python wrapper for ImageJ2 used for multidimensional image data.
 
-[Sidus API](https://redesigned-waddle-y65p2r9.pages.github.io/index.html#) Package that allows for access and of spatial omics data for analysis based on AstroPathDB
+[Sidus API](https://redesigned-waddle-y65p2r9.pages.github.io/index.html#) Package that allows for access and of spatial omics data for analysis based on AstroPathDB.
 
 [Simple ITK API](https://github.com/SimpleITK/SimpleITKPythonPackage) Multidimensional image analysis sofware that also has several useful similariy metrics. 
 
