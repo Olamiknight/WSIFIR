@@ -42,11 +42,11 @@ This pipeline uses metrics such as mutual information, cross correlation, mean s
 
 # Examples
 
-[Mono-Modal IF Axis to Regression Panel Registration](notebooks\Axis_Reg_Registration.ipynb)
+[Mono-Modal IF Axis to Regression Panel Registration](notebooks/Axis_Reg_Registration.ipynb)
 
-[Mono-Modal IF Regression to Tbet Panel Registration](notebooks\Regression_Tbet_Registration.ipynb) 
+[Mono-Modal IF Regression to Tbet Panel Registration](notebooks/Regression_Tbet_Registration.ipynb) 
 
-[Multi-Modal IF to IHC Image Registration](notebooks\IF_IHC_Registration.ipynb)
+[Multi-Modal IF to IHC Image Registration](notebooks/IF_IHC_Registration.ipynb)
 
 # Useful Resources
 
