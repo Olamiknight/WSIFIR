@@ -4,7 +4,8 @@
 
 import ants
 import pandas as pd
-import SimpleITK as sitk
+
+# import SimpleITK as sitk
 from sklearn.metrics import jaccard_score, f1_score
 
 

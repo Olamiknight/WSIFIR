@@ -20,6 +20,7 @@ readme = "README.md"
 dependencies = [
     "antspyx",
     "dask",
+    "ipywidgets",
     "matplotlib",
     "numpy",
     "pandas",

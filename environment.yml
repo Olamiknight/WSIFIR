@@ -10,7 +10,6 @@ dependencies:
   - scikit-learn
   - simpleitk
   - scikit-image
-  - seaborn
   - scipy
   - dask
   - ipykernel
@@ -18,3 +17,5 @@ dependencies:
   - pip:
       - git+https://github.com/AstroPathJHU/sidus.git
       - antspyx
+      - pyimagej
+      - ipywidgets

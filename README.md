@@ -21,6 +21,7 @@ This pipeline uses metrics such as mutual information, cross correlation, mean s
     - pandas
     - sidus
     - skimage.exposure
+    - ipywidgets
 
 # Workflow
 
