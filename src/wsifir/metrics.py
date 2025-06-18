@@ -13,9 +13,22 @@ from sklearn.metrics import jaccard_score, f1_score
 
 
 def compute_metrics(
-    fixed_image_id, moving_image_id, scale_name, fixed_image, moving_image
+    fixed_image_id: str,
+    moving_image_id: str,
+    scale_name: str,
+    fixed_image: ants.ANTsImage,
+    moving_image: ants.ANTsImage,
 ):
-
+    """Compute various image similarity metrics between two ANTs images.
+    Args:
+        fixed_image_id (str): ID of the fixed image.
+        moving_image_id (str): ID of the moving image.
+        scale_name (str): Name of the scale.
+        fixed_image (ants.ANTsImage): The fixed image.
+        moving_image (ants.ANTsImage): The moving image.
+        Returns:
+        pd.DataFrame: A DataFrame containing the computed metrics.
+    """
     # Compute Mutual Information
     mutual_info = ants.image_mutual_information(fixed_image, moving_image)
 

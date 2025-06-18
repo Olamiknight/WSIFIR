@@ -10,36 +10,6 @@ import pandas as pd
 from spatialdata.models import Image2DModel
 
 
-# i don't know if we need this function anymore
-# ants doesn't need them to be in the same size
-# also does this always pad to the right and bottom?
-# if not it will cause issues with the registration
-# between scales
-def pad_images_to_same_size(*images) -> list[np.ndarray]:
-    """
-    Pad a list of images to be the same size.
-
-    Args:
-        images: a list of numpy arrays representing images.
-    """
-    # Get the maximum dimensions
-    max_shape = np.max([img.shape for img in images], axis=0)
-
-    # Pad each image to the maximum dimensions
-    padded_images = []
-    #
-    for img in images:
-        pad_width = [
-            (0, max_dim - img_dim)
-            for img_dim, max_dim in zip(img.shape, max_shape)
-        ]
-        padded_images.append(
-            np.pad(img, pad_width, mode="constant", constant_values=0)
-        )
-
-    return padded_images
-
-
 def _validate_scale(scale: Union[int, str]) -> str:
     x_str = str(scale)
     if not x_str.startswith("scale"):
