@@ -3,7 +3,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.10
+  - python=3.11
   - numpy
   - matplotlib
   - pandas
@@ -13,9 +13,9 @@ dependencies:
   - scipy
   - dask
   - ipykernel
+  - pyimagej
+  - ipywidgets
   - pip
   - pip:
       - git+https://github.com/AstroPathJHU/sidus.git
       - antspyx
-      - pyimagej
-      - ipywidgets
