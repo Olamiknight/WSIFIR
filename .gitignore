@@ -110,3 +110,6 @@ Thumbs.db
 #####################
 debug.log
 *scale
+
+# conda envs
+.conda
