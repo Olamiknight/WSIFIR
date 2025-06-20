@@ -52,10 +52,9 @@ rsconnect/
 # user credentials
 *sciserver_creds.txt
 *creds.txt
-
+.netrc
 
 # python
-
 *.pyc
 .ipynb_checkpoints
 _version.py

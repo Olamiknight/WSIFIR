@@ -28,7 +28,7 @@ dependencies = [
     "scikit-learn",
     "scikit-image",
     "scipy",
-    "sidus @ git+https://github.com/AstroPathJHU/sidus.git@main",
+    #"sidus @ git+https://github.com/AstroPathJHU/sidus.git@main",
     "simpleitk",
 ]
 

@@ -11,15 +11,15 @@ This pipeline uses metrics such as mutual information, cross correlation, mean s
 
 # User installation
 - Python Version:
-    - Python 3.10    
+    - Python 3.11   
 - Packages:
-  - Using pip install the following packages and save them to a conda environment
+  - Using miniforge (recommended), conda or pip install the following packages and save them to a conda environment
     - ants
     - dask
     - numpy
     - matplotlib.pyplot
     - pandas
-    - sidus
+    - sidus (May have to install separately using git clone https://<GITHUB USERNAME>:<PERSONAL ACCESS TOKEN>@github.com/AstroPathJHU/sidus.git )
     - skimage.exposure
     - ipywidgets
     - pyimagej
