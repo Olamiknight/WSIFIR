@@ -9,7 +9,8 @@ import pandas as pd
 from sklearn.metrics import jaccard_score, f1_score
 
 
-# Compute mutual information, cross correlation, mse between the fixed regression and moving tbet images
+# Compute mutual information, cross correlation, mse between
+# the fixed regression and moving tbet images
 
 
 def compute_metrics(

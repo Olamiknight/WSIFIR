@@ -21,15 +21,18 @@ def plot_grouped_bar_chart(df1: pd.DataFrame, df2: pd.DataFrame, title: str):
     """
     Plot a grouped bar chart with error bars.
     Args:
-        df1 (pd.DataFrame): DataFrame containing the first set of data with 'Mean' and 'Standard Deviation' columns.
-        df2 (pd.DataFrame): DataFrame containing the second set of data with 'Mean' and 'Standard Deviation' columns.
+        df1 (pd.DataFrame): DataFrame containing the first set of data
+        with 'Mean' and 'Standard Deviation' columns.
+        df2 (pd.DataFrame): DataFrame containing the second set of data
+        with 'Mean' and 'Standard Deviation' columns.
         title (str): Title for the plot.
 
     Returns:
         None: Displays the plot directly.
 
     Raises:
-        ValueError: If the DataFrames do not have the same index or if they do not contain 'Mean' and 'Standard Deviation' columns.
+        ValueError: If the DataFrames do not have the same index
+        or if they do not contain 'Mean' and 'Standard Deviation' columns.
     """
     # Set the figure size
     plt.figure(figsize=(10, 6))
@@ -135,8 +138,10 @@ def plot_transformed_image(
     Args:
         fixed_image (ANTsImage): The fixed image.
         transformed_image (ANTsImage): The transformed image.
-        fixed_alpha (float): Alpha value for the fixed image overlay. Default is 0.5.
-        transformed_alpha (float): Alpha value for the transformed image overlay. Default is 0.75.
+        fixed_alpha (float): Alpha value for the
+        fixed image overlay. Default is 0.5.
+        transformed_alpha (float): Alpha value for
+        the transformed image overlay. Default is 0.75.
 
     Returns:
         fig (matplotlib.figure.Figure): The figure object containing the plot.
