@@ -19,7 +19,7 @@ This pipeline uses metrics such as mutual information, cross correlation, mean s
     - numpy
     - matplotlib.pyplot
     - pandas
-    - sidus (May have to install separately using git clone https://<GITHUB USERNAME>:<PERSONAL ACCESS TOKEN>@github.com/AstroPathJHU/sidus.git )
+    - sidus (May have to install separately using git clone https://GITHUB USERNAME:PERSONAL ACCESS TOKEN@github.com/AstroPathJHU/sidus.git )
     - skimage.exposure
     - ipywidgets
     - pyimagej
